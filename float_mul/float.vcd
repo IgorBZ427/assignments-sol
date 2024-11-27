@@ -1,0 +1,113 @@
+$date
+	Tue Nov  5 19:10:26 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module float_tb $end
+$var wire 32 ! out [31:0] $end
+$var reg 32 " ain [31:0] $end
+$var reg 32 # bin [31:0] $end
+$scope module u0_DUT $end
+$var wire 32 $ NEGZERO [31:0] $end
+$var wire 32 % ZERO [31:0] $end
+$var wire 32 & ain [31:0] $end
+$var wire 32 ' bin [31:0] $end
+$var wire 1 ( z_sign $end
+$var wire 1 ) zeroes $end
+$var wire 23 * z_mat [22:0] $end
+$var wire 8 + z_exp [7:0] $end
+$var wire 6 , sum_widths [5:0] $end
+$var wire 32 - out [31:0] $end
+$var wire 8 . norm_exp_value [7:0] $end
+$var wire 6 / mantissa_width [5:0] $end
+$var wire 64 0 mantissa_64_mult [63:0] $end
+$var wire 24 1 man_norm_b [23:0] $end
+$var wire 24 2 man_norm_a [23:0] $end
+$var wire 9 3 exp_b [8:0] $end
+$var wire 9 4 exp_a [8:0] $end
+$var wire 6 5 b_width [5:0] $end
+$var wire 6 6 a_width [5:0] $end
+$var reg 1 7 first $end
+$var reg 1 8 first_a $end
+$var reg 1 9 first_b $end
+$var reg 5 : m1 [4:0] $end
+$var reg 5 ; m2 [4:0] $end
+$var reg 5 < n1 [4:0] $end
+$var reg 5 = n2 [4:0] $end
+$var reg 6 > post_zeros [5:0] $end
+$var reg 6 ? trail_zeros [5:0] $end
+$var integer 32 @ i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx @
+bx ?
+bx >
+bx =
+bx <
+bx ;
+bx :
+x9
+x8
+x7
+bx 6
+bx 5
+b0xxxxxxxx 4
+b0xxxxxxxx 3
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+bx +
+bx *
+x)
+x(
+bx '
+bx &
+b0 %
+b10000000000000000000000000000000 $
+bx #
+bx "
+bx !
+$end
+#200
+b1010101111100110011010 *
+0)
+b11000011101010101111100110011010 !
+b11000011101010101111100110011010 -
+b10000111 +
+b1 .
+1(
+b1111101 3
+b101010101111100110011010010111010000000000000000 0
+b11000 @
+b10111 ,
+b10011 5
+b10101 ;
+b1011001100110011001101 1
+b10 =
+b100 6
+b10010 :
+b1111010001 2
+b1110 <
+19
+18
+17
+b11111 /
+b101111 >
+b10000 ?
+b10000111 4
+b10111110101100110011001100110100 #
+b10111110101100110011001100110100 '
+b1000011111101000100000000000000 "
+b1000011111101000100000000000000 &
+#5200

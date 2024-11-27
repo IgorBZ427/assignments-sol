@@ -1,0 +1,40 @@
+module: tb tb
+net:   tb.out [32] = 01000101101010111101100000001110     // out
+reg:   tb.ain [32] = 01000010011001100110101111110001 // tb.ain
+reg:   tb.bin [32] = 01000010101111101110101101111000 // tb.bin
+reg:   tb.clk [1] = 1 // tb.clk
+reg:   tb.corrects [32] = 00000000000000000000000000110001 // tb.corrects
+reg:   tb.cycles [32] = 00000000000000000000000001100100 // tb.cycles
+reg:   tb.errors [32] = 00000000000000000000000000000000 // tb.errors
+reg:   tb.marker [32] = 00000000000000000000000000000000 // tb.marker
+reg:   tb.wrongs [32] = 00000000000000000000000000000000 // tb.wrongs
+son:   tb.dut
+module: float_mul tb.dut
+net:   tb.dut.NEGZERO [32] = 10000000000000000000000000000000     // NEGZERO
+net:   tb.dut.ZERO [32] = 00000000000000000000000000000000     // ZERO
+net:   tb.dut.ain [32] = 01000010011001100110101111110001     // ain
+net:   tb.dut.bin [32] = 01000010101111101110101101111000     // bin
+net:   tb.dut.z_sign [1] = 0     // z_sign
+net:   tb.dut.zeroes [1] = 0     // zeroes
+net:   tb.dut.z_mat [23] = 01010111101100000001110     // z_mat
+net:   tb.dut.z_exp [8] = 10001011     // z_exp
+net:   tb.dut.sum_widths [6] = 100100     // sum_widths
+net:   tb.dut.out [32] = 01000101101010111101100000001110     // out
+net:   tb.dut.norm_exp_value [8] = 00000001     // norm_exp_value
+net:   tb.dut.mantissa_width [6] = 101100     // mantissa_width
+net:   tb.dut.mantissa_64_mult [64] = 0000000000000000101010111101100000001101111101101101001111111000     // mantissa_64_mult
+net:   tb.dut.man_norm_b [24] = 000101111101110101101111     // man_norm_b
+net:   tb.dut.man_norm_a [24] = 000011100110011010111111     // man_norm_a
+net:   tb.dut.exp_b [9] = 010000101     // exp_b
+net:   tb.dut.exp_a [9] = 010000100     // exp_a
+net:   tb.dut.b_width [6] = 010010     // b_width
+net:   tb.dut.a_width [6] = 010010     // a_width
+reg:   tb.dut.first [1] = 1 // tb.dut.first
+reg:   tb.dut.first_a [1] = 1 // tb.dut.first_a
+reg:   tb.dut.first_b [1] = 1 // tb.dut.first_b
+reg:   tb.dut.m1 [5] = 10110 // tb.dut.m1
+reg:   tb.dut.m2 [5] = 10101 // tb.dut.m2
+reg:   tb.dut.n1 [5] = 00100 // tb.dut.n1
+reg:   tb.dut.n2 [5] = 00011 // tb.dut.n2
+reg:   tb.dut.post_zeros [6] = 101111 // tb.dut.post_zeros
+reg:   tb.dut.trail_zeros [6] = 000011 // tb.dut.trail_zeros

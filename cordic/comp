@@ -1,0 +1,4 @@
+#! /bin/csh -f
+#this is icarus compilation stage
+
+iverilog -otb.vpp cordic_sqrt_ex.v tb.v

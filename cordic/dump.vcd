@@ -1,0 +1,79 @@
+$date
+	Fri Nov  1 19:55:56 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb $end
+$var wire 1 ! ready $end
+$var wire 16 " dout [15:0] $end
+$var wire 1 # busy $end
+$var reg 1 $ clk $end
+$var reg 32 % corrects [31:0] $end
+$var reg 32 & cycles [31:0] $end
+$var reg 32 ' din [31:0] $end
+$var reg 32 ( errors [31:0] $end
+$var reg 5 ) iterations [4:0] $end
+$var reg 32 * marker [31:0] $end
+$var reg 1 + rst_n $end
+$var reg 1 , start $end
+$var reg 1 - vldin $end
+$var reg 32 . wrongs [31:0] $end
+$scope module sqrt_u40_5 $end
+$var wire 1 $ clk $end
+$var wire 32 / din [31:0] $end
+$var wire 5 0 iterations [4:0] $end
+$var wire 1 + rst_n $end
+$var wire 1 , start $end
+$var wire 1 1 start_pulse $end
+$var wire 1 - vldin $end
+$var wire 16 2 x [15:0] $end
+$var reg 16 3 base [15:0] $end
+$var reg 1 # busy $end
+$var reg 16 4 dout [15:0] $end
+$var reg 1 ! ready $end
+$var reg 1 5 start_d $end
+$var reg 1 6 start_pulse_d $end
+$var reg 17 7 sum_y [16:0] $end
+$var reg 1 8 vldin_d $end
+$var reg 16 9 y [15:0] $end
+$var integer 32 : i [31:0] $end
+$var integer 32 ; j [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 ;
+b1000 :
+b0 9
+08
+b0 7
+06
+05
+b0 4
+b10000000 3
+b0 2
+01
+b0 0
+b0 /
+b0 .
+0-
+0,
+0+
+b0 *
+b0 )
+b0 (
+b0 '
+b0 &
+b0 %
+0$
+0#
+b0 "
+0!
+$end
+#10
+1$

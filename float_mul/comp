@@ -1,0 +1,4 @@
+#! /bin/csh -f
+#this is icarus compilation stage
+
+iverilog -otb.vvp float_mul.v tb.v

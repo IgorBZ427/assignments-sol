@@ -1,0 +1,201 @@
+$date
+	Wed Oct  2 04:23:42 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module cordic_sqrt_ex_tb $end
+$var wire 1 ! ready $end
+$var wire 16 " dout [15:0] $end
+$var wire 1 # busy $end
+$var reg 1 $ clk $end
+$var reg 32 % din [31:0] $end
+$var reg 5 & iterations [4:0] $end
+$var reg 1 ' rst $end
+$var reg 1 ( start $end
+$scope module u0_DUT $end
+$var wire 1 $ clk $end
+$var wire 32 ) din [31:0] $end
+$var wire 5 * iterations [4:0] $end
+$var wire 1 ' rst_n $end
+$var wire 1 ( start $end
+$var wire 1 + start_pulse $end
+$var wire 16 , x [15:0] $end
+$var reg 16 - base [15:0] $end
+$var reg 1 # busy $end
+$var reg 16 . dout [15:0] $end
+$var reg 1 ! ready $end
+$var reg 1 / start_d $end
+$var reg 1 0 start_pulse_d $end
+$var reg 17 1 sum_y [16:0] $end
+$var reg 16 2 y [15:0] $end
+$var integer 32 3 i [31:0] $end
+$var integer 32 4 j [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 4
+b1000 3
+b0 2
+b0 1
+00
+0/
+b0 .
+b10000000 -
+b0 ,
+0+
+b0 *
+b0 )
+0(
+0'
+b0 &
+b0 %
+0$
+0#
+b0 "
+0!
+$end
+#50
+1$
+#100
+0$
+1'
+#150
+1$
+#200
+0$
+#250
+1$
+#300
+b1000 3
+b1001 ,
+1+
+0$
+b1001 %
+b1001 )
+1(
+#350
+0+
+b0 -
+b11 4
+b1001 1
+b11 2
+b1000 3
+10
+1/
+1$
+#400
+0$
+0(
+#450
+b0 4
+b1000 3
+b0 1
+b10000000 -
+b0 2
+b1001 "
+b1001 .
+00
+0/
+1$
+#500
+0$
+#550
+b0 "
+b0 .
+1$
+#600
+b1000 3
+b100 ,
+1+
+0$
+b100 %
+b100 )
+1(
+#650
+0+
+b0 -
+b11 4
+b1001 1
+b10 2
+b1000 3
+10
+1/
+1$
+#700
+0$
+0(
+#750
+b0 4
+b1000 3
+b0 1
+b10000000 -
+b0 2
+b100 "
+b100 .
+00
+0/
+1$
+#800
+0$
+#850
+b0 "
+b0 .
+1$
+#900
+b1000 3
+b10000 ,
+1+
+0$
+b10000 %
+b10000 )
+1(
+#950
+0+
+b0 -
+b101 4
+b11001 1
+b100 2
+b1000 3
+10
+1/
+1$
+#1000
+0$
+0(
+#1050
+b0 4
+b1000 3
+b0 1
+b10000000 -
+b0 2
+b10000 "
+b10000 .
+00
+0/
+1$
+#1100
+0$
+#1150
+b0 "
+b0 .
+1$
+#1200
+0$
+#1250
+1$
+#1300
+0$
+#1350
+1$
+#1400
+0$
+#1450
+1$
+#1500
+0$

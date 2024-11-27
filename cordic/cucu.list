@@ -1,0 +1,34 @@
+module: tb tb
+net:   tb.ready [1] = 0     // ready
+net:   tb.dout [16] = 0000000000000000     // dout
+net:   tb.busy [1] = 0     // busy
+reg:   tb.clk [1] = 1 // tb.clk
+reg:   tb.corrects [32] = 00000000000000000000000101001011 // tb.corrects
+reg:   tb.cycles [32] = 00000000000000000000001111101000 // tb.cycles
+reg:   tb.din [32] = 00000000000000001001000111000001 // tb.din
+reg:   tb.errors [32] = 00000000000000000000000000000000 // tb.errors
+reg:   tb.iterations [5] = 00000 // tb.iterations
+reg:   tb.marker [32] = 00000000000000000000000000000000 // tb.marker
+reg:   tb.rst_n [1] = 1 // tb.rst_n
+reg:   tb.start [1] = 1 // tb.start
+reg:   tb.vldin [1] = 1 // tb.vldin
+reg:   tb.wrongs [32] = 00000000000000000000000000000000 // tb.wrongs
+son:   tb.sqrt_u40_5
+module: cordic_sqrt_ex tb.sqrt_u40_5
+net:   tb.sqrt_u40_5.clk [1] = 1     // clk
+net:   tb.sqrt_u40_5.din [32] = 00000000000000001001000111000001     // din
+net:   tb.sqrt_u40_5.iterations [5] = 00000     // iterations
+net:   tb.sqrt_u40_5.rst_n [1] = 1     // rst_n
+net:   tb.sqrt_u40_5.start [1] = 1     // start
+net:   tb.sqrt_u40_5.start_pulse [1] = 0     // start_pulse
+net:   tb.sqrt_u40_5.vldin [1] = 1     // vldin
+net:   tb.sqrt_u40_5.x [16] = 1001000111000001     // x
+reg:   tb.sqrt_u40_5.base [16] = 0000000000000000 // tb.sqrt_u40_5.base
+reg:   tb.sqrt_u40_5.busy [1] = 0 // tb.sqrt_u40_5.busy
+reg:   tb.sqrt_u40_5.dout [16] = 0000000000000000 // tb.sqrt_u40_5.dout
+reg:   tb.sqrt_u40_5.ready [1] = 0 // tb.sqrt_u40_5.ready
+reg:   tb.sqrt_u40_5.start_d [1] = 1 // tb.sqrt_u40_5.start_d
+reg:   tb.sqrt_u40_5.start_pulse_d [1] = 1 // tb.sqrt_u40_5.start_pulse_d
+reg:   tb.sqrt_u40_5.sum_y [17] = 01001000110000001 // tb.sqrt_u40_5.sum_y
+reg:   tb.sqrt_u40_5.vldin_d [1] = 1 // tb.sqrt_u40_5.vldin_d
+reg:   tb.sqrt_u40_5.y [16] = 0000000011000001 // tb.sqrt_u40_5.y
